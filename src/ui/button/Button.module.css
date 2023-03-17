@@ -1,0 +1,28 @@
+
+.button {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  padding: 16px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  border: 1px solid var(--primary-color);
+}
+
+.button:hover {
+  background: linear-gradient(to right, var(--primary-color), #00d2ff);
+}
+
+.button span {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 400px){
+  .button{
+    font-size: 16px;
+  }
+}
