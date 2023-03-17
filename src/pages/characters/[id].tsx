@@ -38,10 +38,7 @@ const Person = ({ character }: { character: Character }) => {
                             {character.gender}
                         </li>
                         
-                        <li>
-                            <span>Gender:</span>
-                            {character.gender}
-                        </li>
+                       
                         <li className={styles.origin}>
                             <span>Origin:</span>
                             <div>
